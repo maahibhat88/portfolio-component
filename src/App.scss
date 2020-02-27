@@ -1,0 +1,35 @@
+$bgColor: #E47A63;
+
+.App{
+  display: flex;
+  height:94vh;
+  padding:10px;
+  margin:10px;
+  border-radius: 150px 0 150px 0;
+  background-color:$bgColor;
+
+  .top-section{
+    display: flex;
+  }
+  .profile-image-outer{
+    padding:10px;
+    img{
+      object-fit: scale-down;
+      height: 200px;
+      width: 200px;
+      border-radius: 100px;
+    }
+    .profile-image{
+      display: flex;
+      border-radius: 100px;
+      background:#C4AAA5;
+      padding: 5px;
+    }
+  }
+  .profile-text{
+    padding:5px;
+  }
+
+
+
+}
