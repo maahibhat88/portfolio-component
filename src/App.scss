@@ -1,7 +1,6 @@
 $bgColor: #E47A63;
 
 .App{
-  display: flex;
   height:94vh;
   padding:10px;
   margin:10px;
@@ -29,6 +28,41 @@ $bgColor: #E47A63;
   .profile-text{
     padding:5px;
   }
+   .mid-section{
+     .mid-grid{
+      //  .intro{
+
+      //  }
+       .skills{
+         ul{
+           list-style-type: none;
+         }
+         li{
+           display: flex;
+           flex-direction: row;
+           span.li{
+             width:100px;
+           }
+           #progress {
+            width: 500px;   
+            border: 1px solid black;
+            position: relative;
+            padding: 3px;
+           }
+           
+           #percent {
+            position: absolute;   
+            left: 50%;
+           }
+           
+           #bar {
+            height: 20px;
+            background-color: green;
+           }
+         }
+       }
+     }
+   }
 
 
 
