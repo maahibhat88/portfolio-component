@@ -14,7 +14,7 @@ npm install react-portfolio-component
 
 ```react
 import App from 'react-portfolio-component';
-<App demo = {props}/>
+<App data = {props}/>
 ```
 
 ## Props Data
@@ -27,7 +27,7 @@ props : {
       email: "demo@demomail.com",
       phone: "(+91)-9876543210",
       year: 2020,
-      company: "Bajaj Capital Ltd",
+      company: "XYZ Ltd",
       companyUrl: "https://www.xyz.com",
       topSkills: ['NodeJs','ReactJs','AWS'],
       intro : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tellus cursus, scelerisque erat at, pharetra lacus. Maecenas elementum sem id magna aliquet, gravida tempor enim lobortis. Fusce suscipit tincidunt erat, sit amet volutpat elit fermentum a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id tellus cursus, scelerisque erat at, pharetra lacus. Maecenas elementum sem id magna aliquet, gravida tempor enim lobortis. Fusce suscipit tincidunt erat, sit amet volutpat elit fermentum a.",

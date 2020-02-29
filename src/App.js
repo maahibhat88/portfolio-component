@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 
 function App(props) {
-    const demoData = {
+    let demoData = {
       profileImage : `https://image.freepik.com/free-vector/businessman-profile-cartoon_18591-58479.jpg`,
       name: "Muzaffar Ahmad",
       nickname: 'Maahi Bhat',
@@ -63,7 +63,7 @@ function App(props) {
         }
       ]
     }
-    if(props){
+    if(!props){
       demoData = props;
     }
   return (
