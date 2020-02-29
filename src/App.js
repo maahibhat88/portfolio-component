@@ -63,6 +63,9 @@ function App(props) {
         }
       ]
     }
+    if(props){
+      demoData = props;
+    }
   return (
     <div className="App">
       <div className="top-section">
