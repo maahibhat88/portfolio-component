@@ -1,22 +1,23 @@
-$bgColor: #E47A63;
+$bgColor: #00b894;
 
 .App{
   height:94vh;
-  padding:10px;
-  margin:10px;
+  padding:10px 20px;
+  margin:10px 25px;
   border-radius: 150px 0 150px 0;
   background-color:$bgColor;
+  overflow-y: auto;
 
   .top-section{
     display: flex;
   }
   .profile-image-outer{
-    padding:10px;
+    padding:10px 30px;
     img{
       object-fit: scale-down;
-      height: 200px;
-      width: 200px;
-      border-radius: 100px;
+      height: 150px;
+      width: 150px;
+      border-radius: 75px;
     }
     .profile-image{
       display: flex;
@@ -26,40 +27,110 @@ $bgColor: #E47A63;
     }
   }
   .profile-text{
-    padding:5px;
+    // padding:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    h3.name{
+      margin:0;
+      font-size:24px;
+      color: aquamarine;
+      text-shadow: 3px 2px 6px #191616;
+      margin-bottom: 10px;
+    }
+    span.nick-name{
+      margin:0;
+      font-size:18px;
+      color: #c9c4f5;;
+      text-shadow: 3px 2px 6px #191616;
+      margin-bottom: 10px;
+    }
+    h4.company{
+      margin:0;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #524242;
+    }
+    h4.a{
+      text-decoration: none;
+      color: #1412a5;
+    }
+    h5{
+      margin:0;
+      color:#524242;
+      span{
+        color:#7fffd4;
+      }
+    }
   }
    .mid-section{
      .mid-grid{
-      //  .intro{
+       .intro{
+         p{
+          color: #f7f7f7;
+          text-shadow: 0px 5px 10px #ff0000;
+         }
 
-      //  }
+       }
        .skills{
+          border: 1px solid #acacb3;
+          box-sizing: border-box;
+          box-shadow: 0px 0px 5px #000;
          ul{
            list-style-type: none;
          }
          li{
            display: flex;
            flex-direction: row;
+           font-weight: bold;
+           color: #524242;
            span.li{
              width:100px;
            }
            #progress {
-            width: 500px;   
-            border: 1px solid black;
+            width: 350px;   
+            border: 1px solid #d0baba;
             position: relative;
-            padding: 3px;
+            padding: 0px;
+            margin:5px;
            }
            
            #percent {
             position: absolute;   
             left: 50%;
+            font-size:12px;
            }
            
            #bar {
-            height: 20px;
-            background-color: green;
+            height: 15px;
+            background-color:#5f695f;
            }
          }
+       }
+     }
+   }
+   .bottom-section{
+     .contact-details{
+      color: #524242;
+      h4{
+        margin-bottom:5px;
+      }
+       p{
+        font-weight: bold;
+        margin:0;
+        color: #524242;
+        span{
+          color: #7fffd4;
+        }
+       }
+     }
+     .site-info{
+       p{
+         text-align:center;
+         text-align: center;
+          font-size: 14px;
+          font-weight: 600;
        }
      }
    }

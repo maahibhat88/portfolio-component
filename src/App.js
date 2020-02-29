@@ -73,7 +73,7 @@ function App(props) {
         </div>
         <div className="profile-text">
             <h3 className="name"> { demoData.name } <span className="nick-name">{demoData.nickname ? `(${demoData.nickname})` : ''}</span> </h3>
-            <h4 className="company" > { demoData.profile} at <a href={demoData.companyUrl}>{ demoData.company }</a></h4>
+            <h4 className="company" > { demoData.profile} at <a href={demoData.companyUrl} target="_blank">{ demoData.company }</a></h4>
             <h5 className="top-skills"> Top Skills: 
                   { demoData.topSkills.map((data,i) => {
                      return(
@@ -99,8 +99,8 @@ function App(props) {
                       <li>
                         <span className="li">{demoData.skillsLevel[key].name}</span> 
                         <div id="progress">
-                            <span id="percent">{demoData.skillsLevel[key].strength}</span>
-                            <div id="bar"></div>
+                            <span id="percent">{demoData.skillsLevel[key].strength}%</span>
+                            <div id="bar" style={{width : `${demoData.skillsLevel[key].strength}%`}}></div>
                         </div>
                       </li>
                     )
@@ -112,6 +112,7 @@ function App(props) {
       </div>
       <div className="bottom-section">
           <div className="contact-details">
+            <h4>Contact Details</h4>
             <p>Email: <span> { demoData.email } </span></p>
             <p>Phone: <span> { demoData.phone } </span></p>
           </div>
