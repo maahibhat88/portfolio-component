@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-component",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-portfolio-component",
+  "version": "1.0.1",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -31,5 +31,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maahibhat88/portfolio-component.git"
+  },
+  "keywords": [
+    "react",
+    "portfolio",
+    "component"
+  ],
+  "author": "Muzaffar ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maahibhat88/portfolio-component/issues"
+  },
+  "homepage": "https://github.com/maahibhat88/portfolio-component#readme"
 }
