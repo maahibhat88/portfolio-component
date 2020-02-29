@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio-component",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -32,7 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "React Portfolio Component is a ready to use portfolio component",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
@@ -48,6 +48,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maahibhat88/portfolio-component/issues"
-  },
-  "homepage": "https://github.com/maahibhat88/portfolio-component#readme"
+  }
 }
